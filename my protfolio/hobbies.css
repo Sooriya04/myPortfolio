@@ -1,0 +1,312 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+}
+
+.top-container {
+    height: 100px;
+    width: 100%;
+}
+
+.logo {
+    font-size: 36px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 60px;
+    position: relative;
+    top: 28px;
+}
+
+ul {
+    display: flex;
+    padding: 6px;
+    justify-content: flex-end;
+    position: relative;
+    top: -30px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    border: 2px;
+    font-size: 24px;
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffff;
+    background-color: #000;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.middle-container {
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+/* */
+.cooking{
+    display: inline-flex;
+}
+.cooking img{
+    height: 200px;
+    width: 200px;
+    float: left;
+}
+.cooking h3{
+    margin-left: 55px;
+    font-weight: bolder;
+}
+.cooking p{
+    margin-top: 70px;
+    margin-left: -74px;
+    width: 900px;
+}
+/* */
+.sleeping{
+    display: inline-flex;
+}
+.sleeping img{
+    width: 200px;
+    height: auto;
+    float: right;
+}
+.sleeping h3{
+    margin-left: 55px;
+    font-weight: bolder;
+}
+.sleeping p{
+    margin-top: 70px;
+    margin-left: -74px;
+    width: 900px;
+}
+.coding{
+    display: inline-flex;
+}
+.coding img{
+    height: 200px;
+    width: 200px;
+    float: right;
+}
+.coding h3{
+    margin-left: 55px;
+    font-weight: bolder;
+}
+.coding p{
+    margin-top: 70px;
+    margin-left: -74px;
+    width: 900px;
+}
+/* */
+.gaming{
+    display: inline-flex;
+}
+.gaming img{
+    height: 200px;
+    width: 200px;
+    float: left;
+}
+.gaming h3{
+    margin-left: 55px;
+    font-weight: bolder;
+}
+.gaming p{
+    margin-top: 70px;
+    margin-left: -74px;
+    width: 900px;
+}
+/* */
+.anime{
+    display: inline-flex;
+}
+.anime img{
+    height: auto;
+    width: 400px;
+    float: left;
+}
+.anime h3{
+    margin-left: 55px;
+    font-weight: bolder;
+}
+.anime p{
+    margin-top: 100px;
+    margin-left: -148px;
+    width: 855px;
+}
+/* */
+.reading{
+    display: inline-flex;
+}
+.reading img{
+    height: 200px;
+    width: 200px;
+    float: left;
+}
+.reading h3{
+    margin-left: 55px;
+    font-weight: bolder;
+}
+.reading p{
+    margin-top: 70px;
+    margin-left: -74px;
+    width: 900px;
+}
+.manga{
+    display: inline-flex;
+}
+.manga img{
+    height: 200px;
+    width: auto;
+    float: left;
+}
+.manga h3{
+    margin-left: 55px;
+    font-weight: bolder;
+}
+.manga p {
+    margin-top: 70px;
+    margin-left: -139px;
+    width: 900px;
+}
+footer {
+    background-color: #000000e3;
+    color: #ffff;
+    width: 100%;
+    height: 290px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-info {
+    width: 300px;
+    height: 45px;
+    margin-left: 100px;
+    position: relative;
+    top: 12px;
+}
+
+.footer-info h3 {
+    color: #ffff;
+}
+
+.social-icons {
+    width: 500px;
+    float: right;
+    position: relative;
+    left: 300px;
+}
+
+.social-icons ul {
+    display: flex;
+    padding: 6px;
+}
+
+.social-icons ul li {
+    display: inline;
+    margin-left: 10px;
+}
+
+.social-icons h3 {
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 176px;
+}
+
+.social-icons ul li a {
+    size: 10px;
+    font-size: 30px;
+    position: relative;
+    top: 19px;
+    margin-left: 30px;
+    padding: 10px 10px 10px 10px;
+}
+.social-icons ul li a i{
+    color: #ffff;
+    background-color: none;
+    border: 10px;
+    padding: 8px;
+}
+.social-icons ul li a i:hover{
+    color: #000;
+    background-color: #ffff;
+    border-radius: 10px;
+}
+
+.cm {
+    font-size: 22px;
+    font-weight: bold;
+    position: relative;
+    top: -10px;
+}
+
+.footer-info p {
+    font-size: 20px;
+    margin-top: 4px;
+    padding: 0px;
+}
+
+.footer-info p a {
+    text-decoration: none;
+    color: #5F7FF5;
+}
+
+.bottom {
+    background-color: #000;
+    color: white;
+    position: relative;
+    bottom: 10px;
+}
+
+.page-list {
+    display: block;
+    padding-top: 12px;
+}
+
+.page-list ul {
+    list-style: none;
+    display: list-item;
+    text-align: center;
+    position: relative;
+    left: 200px;
+}
+
+.page-list ul li {
+    padding-top: 10px;
+    list-style: none;
+}
+.page-list ul li a {
+    color: #ffff;
+    text-decoration: none;
+    margin-top: 3px;
+}
+
+.copyright p {
+    position: relative;
+    top: 192px;
+    right: 670px;
+}
+.footer-info p a:hover{
+    color: #000;
+    background-color: #ffff;
+    padding: 2px;
+    border-radius: 6px;
+}
+.page-list ul li a:hover{
+    background-color: white;
+    color: #000;
+    padding: 2px;
+    border: 2px;
+}
