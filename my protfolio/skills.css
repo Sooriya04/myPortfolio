@@ -1,0 +1,258 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+}
+
+.top-container {
+    height: 100px;
+    width: 100%;
+}
+
+.logo {
+    font-size: 36px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 60px;
+    position: relative;
+    top: 28px;
+}
+
+ul {
+    display: flex;
+    padding: 6px;
+    justify-content: flex-end;
+    /* margin-left: 640px; */
+    position: relative;
+    top: -30px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    border: 2px;
+    font-size: 24px;
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffff;
+    background-color: #000;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.container{
+    display: flex;
+    margin-bottom: 100px;
+    margin-left: 10px;
+}
+h1{
+    margin-left: 779px;
+    margin-top: 100px;
+}
+.web{
+    width: 50%;
+    height: auto;
+    margin-top: 130px;
+    margin-left: 30px;
+    padding-bottom: 30px;
+}
+.mobile-app{
+    width: 50%;
+    height: auto;
+    padding: 10px;
+    margin-top: 130px;
+    margin-left: 30px;
+}
+.web-img{
+    width: 200px;
+    height: auto;
+    margin-left: 47px;
+}
+.web h3{
+    font-size: 18px;
+}
+.list-1{
+    margin-left: 240px;
+}
+.list-1 li{
+    list-style: none;
+}
+.list-1 h3{
+    font-size: 40px;
+}
+.list-1 li i{
+    font-size: 40px;
+    padding-right: 4px;
+}
+.list-1 li i p{
+    display: inline-flex;
+    font-size: 30px;
+    margin-left: 34px;
+    font-weight: bold;
+}
+.mob-img{
+    height: auto;
+    width: 100px;
+    margin-left: 289px;
+}
+.list-2 h3{
+    font-size: 40px;
+    margin-left: 123px;
+    margin-top: 56px;
+}
+.list-2 li{
+    list-style: none;
+    margin-top: 10px;
+}
+.list-2 li i{
+    font-size: 40px;
+    margin-left: 208px;
+    margin-top: 27px;
+}
+.list-2 li i p{
+    display: inline;
+    margin-left: 34px;
+}
+footer {
+    background-color: #000000e3;
+    color: #ffff;
+    width: 100%;
+    height: 290px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-info {
+    width: 300px;
+    height: 45px;
+    margin-left: 100px;
+    position: relative;
+    top: 12px;
+}
+
+.footer-info h3 {
+    color: #ffff;
+}
+
+.social-icons {
+    width: 500px;
+    float: right;
+    position: relative;
+    left: 300px;
+}
+
+.social-icons ul {
+    display: flex;
+    padding: 6px;
+}
+
+.social-icons ul li {
+    display: inline;
+    margin-left: 10px;
+}
+
+.social-icons h3 {
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 176px;
+}
+
+.social-icons ul li a {
+    size: 10px;
+    font-size: 30px;
+    position: relative;
+    top: 19px;
+    margin-left: 30px;
+    padding: 10px 10px 10px 10px;
+}
+.social-icons ul li a i{
+    color: #ffff;
+    background-color: none;
+    border: 10px;
+    padding: 8px;
+}
+.social-icons ul li a i:hover{
+    color: #000;
+    background-color: #ffff;
+    border-radius: 10px;
+}
+
+.cm {
+    font-size: 22px;
+    font-weight: bold;
+    position: relative;
+    top: -10px;
+}
+
+.footer-info p {
+    font-size: 20px;
+    margin-top: 4px;
+    padding: 0px;
+}
+
+.footer-info p a {
+    text-decoration: none;
+    color: #5F7FF5;
+}
+
+.bottom {
+    background-color: #000;
+    color: white;
+    position: relative;
+    bottom: 10px;
+}
+
+.page-list {
+    display: block;
+    padding-top: 12px;
+}
+
+.page-list ul {
+    list-style: none;
+    display: list-item;
+    text-align: center;
+    position: relative;
+    left: 200px;
+}
+
+.page-list ul li {
+    padding-top: 10px;
+    list-style: none;
+}
+
+
+.page-list ul li a {
+    color: #ffff;
+    text-decoration: none;
+    margin-top: 3px;
+}
+
+.copyright p {
+    position: relative;
+    top: 240px;
+    right: 674px;
+}
+.footer-info p a:hover{
+    color: #000;
+    background-color: #ffff;
+    padding: 2px;
+    border-radius: 6px;
+}
+.page-list ul li a:hover{
+    background-color: white;
+    color: #000;
+    padding: 2px;
+    border: 2px;
+}
