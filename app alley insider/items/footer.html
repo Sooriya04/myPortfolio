@@ -1,0 +1,141 @@
+<style>
+    #footer {
+    grid-area: footer;
+    display: grid;
+    grid-template-rows: 300px;
+    grid-template-columns: 35% 30% 35%;
+    grid-template-areas:
+        "social-icons quick-links submits";
+    
+}
+    
+.social-icons p {
+    font-size: 36px;
+    margin: 40px auto auto 60px;
+}
+.social-icons ul {
+    list-style: none;
+}
+.social-icons ul li {
+    color: #000000ad;
+    width: 350px;
+    margin: auto 0 0 100px;
+    padding: 5px;
+    font-style: normal;
+    line-height: 29px;
+    font-weight: 700;
+    font-size: 18px;
+    border-bottom: 1px solid #00000049;
+}
+.social-icons ul li a{
+    color: #000000ad;
+    text-decoration: none;
+}
+.social-icons ul li:hover {
+    color: #6a4ee9d0;
+}
+.social-icons ul li a:hover{
+    color: #6a4ee9d0;
+}
+.social-icons ul li i{
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 2px;
+}
+#t-icon{
+    margin: 0 0 0 130px;
+}
+#f-icon{
+    margin: 0px 0 0 92px;
+}
+#i-icon{
+    margin: 0px 0 0 100px;
+}
+#g-icon{
+    margin: 0px 0 0 128px;
+}
+#l-icon{
+    margin: 0 0 0 115px;
+}
+.quicks-links p {
+    font-size: 36px;
+    margin: 40px auto auto 40px;
+}
+.quicks-links ul {
+    list-style: none;
+}
+.quicks-links ul li {
+    margin: auto 0 0 80px;
+    padding: 5px;
+    font-style: normal;
+    line-height: 29px;
+    font-weight: 700;
+    font-size: 18px;
+}
+.submits p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    margin: 40px auto auto 40px;
+}
+#f-mail,
+#f-mail:active{
+    margin: 30px 0 0 0;
+    width: 363px;
+    height: 50px;
+    border: 2px solid #6A4EE9;
+    background-color: var(--white-bg);
+}
+#f-mail::placeholder{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--black-text-color);
+    padding: 5px 0 5px 30px;
+
+}
+.f-sub{
+    background-color: #6A4EE9;
+    color: var(--text-color);
+    margin: auto auto auto 18px;
+    width: 110px;
+    height: 30px;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
+</style>
+<div id="footer">
+    <div class="social-icons">
+        <p>Social Links</p>
+        <ul>
+            <li><a href="">Follow us on Twitter</a> <i id="t-icon" class="fa-brands fa-twitter"
+                    style="color: #1da1f2;"></i></li>
+            <li><a href="">Follow us on Facebooks</a> <i id="f-icon" class="fa-brands fa-facebook"
+                    style="color: #1877f2;"></i></li>
+            <li><a href="">Follow us on Instagram</a> <i id="i-icon" class="fa-brands fa-instagram"
+                    style="color: #5b51d8;"></i></li>
+            <li><a href="">Follow us on Github</a> <i id="g-icon" class="fa-brands fa-github"
+                    style="color: #2b3137;"></i></li>
+            <li><a href="">Follow us on Linkdeln </a> <i id="l-icon" class="fa-brands fa-linkedin"
+                    style="color: #0762c8;"></i></li>
+        </ul>
+    </div>
+    <div class="quicks-links">
+        <p>Quick links</p>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Contact Us</a></li>
+            <li><a href="">Privacy Policy and cookies</a></li>
+        </ul>
+    </div>
+    <div class="submits">
+        <p>Subscribe to our Newsletter</p>
+        <form action="">
+            <input type="email" name="Email" id="f-mail" placeholder="Email Adress"><button
+                class="f-sub">submits</button>
+        </form>
+    </div>
+</div>
